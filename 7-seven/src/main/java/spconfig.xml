@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XML configuration file defining Spring beans -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+ <bean id="stu" class="com.spring.seven._seven.AmeerpetTechnologies">
+	 
+ <property name= "studentCourses">
+	 <map> 
+		 <entry key= "Javfullstack" value="frontend"/>
+		 <entry key= "Dotnatfullstack" value="frontend"/>
+		 <entry key= "Python" value="programing langunge"/>
+		 
+	 </map>
+ </property>
+ </bean>
+ </beans>
+ 
+ 
+ 
+ 
+ 

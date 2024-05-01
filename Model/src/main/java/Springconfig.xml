@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+						http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc.xsd">
+
+    <!-- Define a bean named "model" of class Model with properties -->
+    <bean id="model" class="com.spring.model.Model">
+        <property name="name" value="bmw" />
+        <property name="variant" value="x5" />
+    </bean>
+
+    <!-- Define a bean named "model2" of class Model with properties -->
+    <bean id="model2" class="com.spring.model.Model">
+        <property name="name" value="bmw" />
+        <property name="variant" value="x7" />
+    </bean>
+
+    <!-- Define a bean named "car" of class Car -->
+    <bean id="car" class="com.spring.model.Car" />
+</beans>
